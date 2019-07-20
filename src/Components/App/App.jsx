@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Switch>
         <Route path="/" exact component={Reader} />
-        <Route path="/" component={PageNotFound} />
+        <Route component={PageNotFound} />
       </Switch>
     </div>
   );
